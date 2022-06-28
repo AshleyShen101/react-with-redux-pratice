@@ -1,5 +1,5 @@
 import { createStore } from "redux";
-import reducers from "./reducer/index";
+import reducers from "./reducers/index";
 
 // params: reducers; the default state
 export const store = createStore(
